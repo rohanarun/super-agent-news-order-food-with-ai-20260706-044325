@@ -1,0 +1,1 @@
+(function(){try{if(!window.gsap)return;gsap.from('.hero h1',{y:20,opacity:0,duration:.8});gsap.from('.hero-sub',{y:20,opacity:0,duration:.8,delay:.1});gsap.from('.media-frame',{y:30,opacity:0,duration:.9,delay:.2});document.querySelectorAll('.bento-item').forEach(el=>{gsap.from(el,{scrollTrigger:{trigger:el,start:'top 80%'},y:24,opacity:0,duration:.6});});}catch(e){}})();
